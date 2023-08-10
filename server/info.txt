@@ -1,0 +1,4 @@
+yarn add ts-node ts-node-dev tslint typescript express @type/express
+tsc --init
+
+ "serve":"concurrently \"ng serve\" \"server/node-modules/.bin/ts-node-dev server/server.ts\""
